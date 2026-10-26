@@ -1,0 +1,8 @@
+node_modules/
+*.log
+*.tar.gz
+*.zip
+standalone.html
+public/
+.env*
+.openai/

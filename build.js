@@ -1,0 +1,10 @@
+'use strict';
+const fs=require('node:fs'),path=require('node:path');
+const root=__dirname,assets={};
+for(let name of ['materials','buddy','killer','resident','weapon'])assets[name]='data:image/png;base64,'+fs.readFileSync(path.join(root,'assets',name+'.png')).toString('base64');
+fs.writeFileSync(path.join(root,'assets.js'),'window.LAB_ASSETS='+JSON.stringify(assets)+';\n');
+const files=['index.html','style.css','assets.js','core.js','renderer.js','audio.js','game.js'];
+const publicDir=path.join(root,'public');fs.mkdirSync(publicDir,{recursive:true});for(let file of files)fs.copyFileSync(path.join(root,file),path.join(publicDir,file));
+const backend=process.env.PUBLIC_API_BASE||'';if(backend&&!/^https:\/\//.test(backend))throw Error('PUBLIC_API_BASE must be an HTTPS backend origin');
+fs.writeFileSync(path.join(publicDir,'runtime-config.js'),'window.LAB_RUNTIME='+JSON.stringify({multiplayer:!!backend,apiBase:backend.replace(/\/$/,'')})+';');
+let html=fs.readFileSync(path.join(root,'index.html'),'utf8');html=html.replace('<link rel="stylesheet" href="style.css">',()=>'<style>'+fs.readFileSync(path.join(root,'style.css'),'utf8')+'</style>');for(let file of ['runtime-config.js','assets.js','core.js','renderer.js','audio.js','game.js'])html=html.replace('<script src="'+file+'"></script>',()=>'<script>'+(file==='runtime-config.js'?'window.LAB_RUNTIME={multiplayer:false};':fs.readFileSync(path.join(root,file),'utf8'))+'</script>');fs.writeFileSync(path.join(root,'standalone.html'),html);console.log('Built static site and standalone HTML. Assets: '+(fs.statSync(path.join(root,'assets.js')).size/1048576).toFixed(1)+' MiB');

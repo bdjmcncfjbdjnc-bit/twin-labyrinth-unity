@@ -3,7 +3,7 @@
 const http=require('node:http'),fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto'),zlib=require('node:zlib');
 const {Game}=require('./core.js');
 const rooms=new Map(),PORT=Number(process.env.PORT)||8787;
-const allowed=new Set(['index.html']);
+const allowed=new Set(['index.html','style.css','game.js','core.js','renderer.js','audio.js','assets.js','runtime-config.js']);
 function json(res,status,data){res.writeHead(status,{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store'});res.end(JSON.stringify(data))}
 function fail(msg,status=400){let e=new Error(msg);e.status=status;throw e}
 function member(body){let room=rooms.get(String(body.code));if(!room)fail('房间不存在或已过期。',404);let seat=room.seats.find(s=>s?.token===body.token);if(!seat)fail('房间身份无效，请重新加入。',403);return{room,seat}}
