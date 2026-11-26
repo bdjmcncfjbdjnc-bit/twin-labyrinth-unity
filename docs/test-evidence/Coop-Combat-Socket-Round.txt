@@ -1,0 +1,16 @@
+ROUND room 111466
+route 0/52 hp 100/100
+route 20/52 hp 100/100
+route 40/52 hp 100/100
+A powered
+route 0/66 hp 100/100
+route 20/66 hp 100/100
+route 40/66 hp 100/100
+route 60/66 hp 100/100
+B approach [{"slot":0,"x":6,"z":54,"yaw":179.99999999999855,"pitch":0,"torch":true,"online":true,"hp":100,"hasKnife":true,"weapon":"torch","swing":3,"hit":0,"kills":0,"revive":0},{"slot":1,"x":6,"z":54,"yaw":179.99999999999855,"pitch":0,"torch":true,"online":true,"hp":100,"hasKnife":true,"weapon":"torch","swing":3,"hit":0,"kills":3,"revive":0}]
+B jointly powered
+route 0/42 hp 100/100
+route 20/42 hp 100/100
+route 40/42 hp 100/100
+PASS real-time two-socket complete round: knife pickup, NPC combat active, doors, A, joint B, joint exit. 8078 frames, 439.1 wall seconds.
+{"health":[100,100],"kills":[0,3],"alarm":1}

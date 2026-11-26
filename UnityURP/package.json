@@ -1,0 +1,13 @@
+{
+  "name": "twin-labyrinth-unity-tools",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Build-page tools and browser tests for Twin Labyrinth",
+  "scripts": {
+    "test": "node Server/rooms.test.cjs && node Server/combat.test.cjs && node Server/combat-flow.test.cjs",
+    "test:browser": "node Tools/coop-combat-browser.test.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}

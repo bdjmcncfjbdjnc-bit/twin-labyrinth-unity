@@ -1,0 +1,21 @@
+Free hand resource review / 2026-11-24
+
+Selected: Valve SteamVR Unity Plugin skeletal poses.
+Original repository: https://github.com/ValveSoftware/steamvr_unity_plugin
+Sources:
+https://github.com/ValveSoftware/steamvr_unity_plugin/blob/master/Assets/SteamVR/InteractionSystem/Poses/fallback_fist.asset
+https://github.com/ValveSoftware/steamvr_unity_plugin/blob/master/Assets/SteamVR/InteractionSystem/Poses/fallback_relaxed.asset
+https://github.com/ValveSoftware/steamvr_unity_plugin/blob/master/Assets/SteamVR/InteractionSystem/Poses/GrenadePose.asset
+License: Valve BSD-style 3-clause, retained in Assets/ArtReview/Source/HandPoses/LICENSE.txt.
+Redistribution is permitted with copyright, conditions and disclaimer retained; no endorsement implied.
+Format: Unity YAML pose data with 31-bone per-hand position/quaternion arrays.
+Integration: bone-direction retargeting onto the existing Rocketbox arm skin; preserve bone lengths, remap anatomical palm frames, retain thumb opposition. Relaxed/fist local poses interpolate during pickup. Flashlight grip anchor follows finger geometry.
+These are free skeletal POSES, not a newly acquired first-person motion-capture animation pack. Transition and camera-relative handling are authored in the project.
+GrenadePose was inspected but rejected for the flashlight: fingers remained too open. The final grasp uses fallback_fist, with the flashlight aligned to its grip.
+
+Alternative reviewed: Adobe Mixamo, https://helpx.adobe.com/creative-cloud/faq/mixamo-faq.html
+Free with Adobe ID, usable within games. Not selected: requires account access, and whole-body clips do not by themselves resolve first-person finger/prop alignment. No Mixamo download is bundled.
+
+Chinese font: Noto Sans CJK SC Regular, https://github.com/notofonts/noto-cjk
+Format: static OTF. License: SIL Open Font License, retained in Resources/NotoSansSC-LICENSE.txt.
+Embedded font included for Chinese glyphs in Windows/WebGL rather than relying on the player's operating system.

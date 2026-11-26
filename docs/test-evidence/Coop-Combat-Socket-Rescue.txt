@@ -1,0 +1,1 @@
+PASS actual WebSocket NPC warning/damage → player down → held partner rescue (health {"a":65,"b":70}) → both down → shared defeat

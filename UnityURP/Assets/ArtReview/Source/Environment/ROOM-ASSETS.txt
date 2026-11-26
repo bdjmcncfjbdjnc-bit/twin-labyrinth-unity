@@ -1,0 +1,15 @@
+Twin Labyrinth / Real rooms art iteration / 2026-11-24
+
+New assets obtained through the official Poly Haven download API:
+https://polyhaven.com/a/wheelchair_01
+https://polyhaven.com/a/drawer_cabinet
+https://polyhaven.com/a/metal_stool_02
+https://polyhaven.com/a/vintage_radio_transceiver
+https://polyhaven.com/a/metal_toolbox
+
+License: CC0. https://polyhaven.com/license
+Format: glTF 2.0 + external BIN; 1K JPEG PBR diffuse, normal, ARM textures.
+Usage: infirmary, records room, duty office, workshop, storage furnishings.
+Imported through Unity glTFast; original downloads retained in adjacent folders.
+No paid assets or assets with restricted redistribution are included here.
+Existing characters retain their separate Rocketbox notices and licenses.

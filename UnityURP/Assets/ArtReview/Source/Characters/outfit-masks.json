@@ -1,0 +1,20 @@
+{
+  "outfits": [
+    {
+      "top": "tshirt",
+      "mask": 11
+    },
+    {
+      "top": "hoodie",
+      "mask": 1027
+    },
+    {
+      "top": "shirt",
+      "mask": 515
+    },
+    {
+      "top": "jacket",
+      "mask": 4099
+    }
+  ]
+}

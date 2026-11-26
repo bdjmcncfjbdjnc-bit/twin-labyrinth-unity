@@ -1,0 +1,20 @@
+Independent districts asset record — 2026-11-24
+
+Industrial Storage Cart — Jule Bielitz / Poly Haven
+https://polyhaven.com/a/industrial_storage_cart
+Metal Office Desk — Ulan Cabanilla / Poly Haven
+https://polyhaven.com/a/metal_office_desk
+Tool Cart — Poly Haven
+https://polyhaven.com/a/tool_cart
+
+License: CC0. Official terms: https://polyhaven.com/license
+Format: glTF 2.0 + BIN + 1K JPG PBR textures (base color, normal, ARM).
+Downloaded using https://api.polyhaven.com/files/<asset> and its provided include manifest.
+Permitted: commercial use, modification, redistribution. No paid/proprietary asset pack is included.
+Integration: resized for consistent metre scale, placed in duty office, laundry sorting area, and repair workshop.
+
+Character motions: the existing Microsoft Rocketbox-derived GLBs contain 13 original animations.
+This iteration restores their animation metadata without changing skeletons or image buffers.
+MIT notice remains in Source/MazeCast/Rocketbox-Notices.txt and the Web build notices.
+The short knife reach and partner panel reach use bounded two-bone IK over the existing licensed skeletons.
+Steam sprite and interaction code are authored in this project.

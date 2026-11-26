@@ -1,0 +1,11 @@
+Body impact recordings: Iwan Gabovitch / qubodup.
+Source: https://opengameart.org/content/40-wet-towel-clubpoundhitattack-sounds
+Archive: https://opengameart.org/sites/default/files/wet_towel_on_body.7z
+Retrieved 2026-11-24. The author page explicitly dedicates this recording to CC0 and says to ignore the older license description in the archive. Original MIT/ZLIB/newBSD notice is also retained as Original-License.txt.
+Inputs: wet_towel_on_body-01.flac and wet_towel_on_body-22.flac.
+Outputs: body-hit.wav and body-fall.wav (mono, 44.1 kHz, PCM 16 bit).
+Processing: silence trimmed, very short fades, normalized below full scale; playback volume kept low. Source was a towel impact recording, not a recording of injury.
+No attribution or redistribution restriction under CC0; credit retained voluntarily.
+The initially researched Kenney Impact Sounds pack was not integrated: download endpoint returned forbidden. No downloaded HTML is treated as audio.
+
+Knife swish: pyranostudios, Air whoosh, https://opengameart.org/content/air-whoosh , CC0. Source https://opengameart.org/sites/default/files/whoosh2_0.wav . Extracted 0.8–1.8 seconds at 2x rate, mono, short fades, peak limited to 0.6; output knife-swish.wav, 0.5 seconds. Retrieved 2026-11-24.

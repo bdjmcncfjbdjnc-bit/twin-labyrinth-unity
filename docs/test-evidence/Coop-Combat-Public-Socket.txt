@@ -1,0 +1,1 @@
+PASS two real WebSocket clients: room join, remote rotation/torch, peer disconnect and authenticated resume

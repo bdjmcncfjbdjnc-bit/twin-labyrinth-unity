@@ -1,0 +1,12 @@
+const fs=require('node:fs');const p='Builds/Coop-Combat-Web/index.html';let h=fs.readFileSync(p,'utf8');
+if(h.includes('coop-loading'))throw Error('Fresh Unity index required');
+h=h.replace('<html lang="en-us">','<html lang="zh-CN">').replace(/<title>.*?<\/title>/,'<title>双生迷城 · 双人联机</title>');
+h=h.replace('</head>',`<style>body{background:#080908;color:#ddd8c9;font-family:system-ui,sans-serif}#unity-canvas{outline:none}#unity-logo-title-footer{display:none}#unity-build-title{color:#bdb9ab}#coop-loading{position:fixed;inset:0;background:#080908;z-index:5;display:grid;place-items:center}#coop-loading section{max-width:650px;padding:28px;border-top:2px solid #b89e6e}h1{font-size:42px;font-weight:400;letter-spacing:3px}p{line-height:1.9;color:#bdbdb2}#coop-progress{color:#d4bd8c}</style></head>`);
+h=h.replace('<body>','<body><div id="coop-loading"><section><p>双生迷城 / 双人联机 · 防卫测试</p><h1>这次，朋友与你同行。</h1><p>一人创建房间，将六位房间码或邀请网址发给另一人。<br>两人一起开门、恢复供电，再共同走到出口。<br>起点桌上可领取刀具；遇到亮刀囚犯可撤退或自卫。<br>倒地后由朋友靠近按住 F 扶起；狱警与随机协议暂不启用。</p><p id="coop-progress">正在载入监区…</p><p>请使用电脑键鼠。首次需要下载模型与声音。</p></section></div>');
+h=h.replace('document.querySelector("#unity-loading-bar").style.display = "none";','document.querySelector("#unity-loading-bar").style.display = "none"; document.querySelector("#coop-loading").remove(); window.prisonGame=unityInstance;');
+h=h.replace('document.querySelector("#unity-progress-bar-full").style.width = 100 * progress + "%";','document.querySelector("#unity-progress-bar-full").style.width = 100 * progress + "%"; document.querySelector("#coop-progress").textContent="正在载入监区 · "+Math.round(progress*100)+"%";');
+h=h.replace(/(Coop-Combat-Web\.(?:data\.gz|framework\.js\.gz|wasm\.gz|loader\.js))/g,'$1?v=coop-combat-20261124-r1');
+h=h.replace('canvas.style.width = "960px";','canvas.style.width = Math.min(1280,innerWidth-24,(innerHeight-90)*16/9)+"px";').replace('canvas.style.height = "600px";','canvas.style.height = parseFloat(canvas.style.width)*9/16+"px";');
+h=h.replace('</body>','<footer style="position:fixed;bottom:5px;right:16px;font-size:12px"><a style="color:#aaa" href="Rocketbox-Notices.txt">素材许可</a></footer></body>');
+fs.writeFileSync(p,h);console.log('Prepared co-op browser page');
+

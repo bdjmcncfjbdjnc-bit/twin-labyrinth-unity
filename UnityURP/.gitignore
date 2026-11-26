@@ -1,0 +1,12 @@
+/Library/
+/Logs/
+/Temp/
+/UserSettings/
+/obj/
+/Builds/
+*.csproj
+*.sln
+/Downloads/
+/Backups/
+/node_modules/
+*.user

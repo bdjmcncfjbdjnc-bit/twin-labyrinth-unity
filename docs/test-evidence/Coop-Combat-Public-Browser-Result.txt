@@ -1,0 +1,12 @@
+A COOP JOIN slot=0 room=912119
+
+COMBAT ROOM 912119
+B COOP JOIN slot=1 room=912119
+
+approach {"slot":0,"x":2,"z":7.70359992980957,"yaw":0,"pitch":0,"torch":false,"online":true,"hp":100,"hasKnife":true,"weapon":"knife","swing":0,"hit":0,"kills":0,"revive":0} {"id":0,"x":2,"z":9.438400000000001,"yaw":180,"hp":100,"mode":"chase","hit":0,"swing":0,"armed":true}
+NPC death synchronized {"actors":[{"id":0,"x":2,"z":9.164800000000001,"yaw":180,"hp":0,"mode":"dead","hit":2,"swing":2,"armed":true},{"id":1,"x":18,"z":22,"yaw":0,"hp":100,"mode":"idle","hit":0,"swing":0,"armed":false},{"id":2,"x":54,"z":46,"yaw":0,"hp":100,"mode":"idle","hit":0,"swing":0,"armed":false}],"players":[{"slot":0,"x":2,"z":8.180299758911133,"yaw":0,"pitch":0,"torch":false,"online":true,"hp":70,"hasKnife":true,"weapon":"knife","swing":2,"hit":1,"kills":1,"revive":0},{"slot":1,"x":2.6500000953674316,"z":2,"yaw":0,"pitch":0,"torch":true,"online":true,"hp":100,"hasKnife":true,"weapon":"torch","swing":0,"hit":0,"kills":0,"revive":0}]}
+A COOP JOIN slot=0 room=912119
+
+B COOP JOIN slot=1 room=912119
+
+PASS actual dual WebGL: room/invite, both knife pickups, equip, real walking, knife attacks, synchronized NPC death, torch switch, second-player movement, inventory/corpse persistence after refresh

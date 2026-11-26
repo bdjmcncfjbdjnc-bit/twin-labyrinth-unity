@@ -1,0 +1,141 @@
+Read the roll-call board in A	先读起点墙上的点名板（对准后按住 F）
+Duty office: collect the transfer pass	前往值班室，领取转运通行证
+Duty office: collect the service tool	前往值班室，领取维修工具
+Workshop: validate the pass during a radio gap	前往维修间，趁无线电空档校验通行证
+Workshop: close the steam valve (hold F)	前往维修间，按住 F 隔离蒸汽
+Restore A, then B together; release the transfer gate	接通配电 A，再与队友接通 B，最后前往出口放行台
+Exit together - do not leave your partner	一起前往出口，不要丢下队友
+HOLD F AT ENTRY PANEL - SEND PARTNER THROUGH INNER GATE	对准入口面板按住 F，让队友先穿过内门
+PARTNER OPERATING RETURN CONTROL	队友正在操作回锁
+RETURN LATCH OPEN - JOIN YOUR PARTNER INSIDE	回锁已解除，穿过内门与队友会合
+BOTH GATES RELEASED - LEAVE TOGETHER	外门已打开，两人一起走到出口
+COMPLETE ESCAPE PREPARATIONS	先完成越狱准备
+HOLD F at this panel. Partner must reach the return control.	对准这个面板按住 F，让队友走到另一侧回锁台。
+Partner released the return latch. Cross the inner gate.	队友已解除回锁，现在可以穿过内门。
+OUTER GATE OPEN. BOTH OF YOU MUST REACH THE EXIT.	外门已开启，两个人都要到达出口才算逃生。
+The last transfer never returned. Take the torch, read the roll-call board. TAB: help.	上一批被转运的人再也没有回来。先拿手电，再读点名板。Tab 查看任务。
+Take the flashlight. Read the roll-call board. TAB shows the rules.	先拿起手电，再读点名板。按 Tab 查看任务与规则。
+Take the flashlight at intake.	拾取起点桌上的手电筒。
+Take the flashlight. Activate A and B to unlock the exit.	拿起手电，接通配电 A 和 B。
+Flashlight needs batteries.	电量耗尽，需要补充电池。
+Find the flashlight at intake.	先在起点桌上找到手电筒。
+You need a flashlight first.	你还没有手电筒。
+Already full.	当前无需补充。
+Flashlight collected. L to toggle.	已拿到手电筒，按 L 开关。
+Battery charge restored.	电池已补充。
+Stamina restored.	已饮水，精力恢复。
+Cache opened. Battery, water and a route note recovered.	补给箱已开启：获得电池、饮水和短暂路线提示。
+Inmate: Keep moving. I don't know anything.	囚犯：继续走吧，我什么都不知道。
+KNIFE VISIBLE - BACK AWAY OR BREAK LINE OF SIGHT	他亮刀了！后退，利用墙角或门挡住视线
+INMATE PURSUIT - LEAVE THIS AREA	囚犯正在追你，尽快离开附近区域
+YOU SHOOK OFF THE INMATE	已甩开囚犯
+STAGGERED - 12 SECONDS LOST. PUT DISTANCE BETWEEN YOU.	你受到了冲撞，损失 12 秒。赶快拉开距离
+You were caught. Your partner is coming.	你被抓了，队友正在赶来救援。
+Partner caught. Follow the route marker.	队友被抓了，按方向提示赶去救他。
+Rescued. Move before the guard returns.	救援成功，趁狱警回来前离开。
+Released. Lockdown advanced by 24s.	已被释放，封锁提前 24 秒。
+Escort interrupted. Released here. Lockdown advanced by 24s.	押送中断，就地释放，封锁提前 24 秒。
+Partner stabilized. Stay together.	队友已恢复，继续结伴行动。
+Partner recovered. Lockdown advanced by 25s.	队友自行恢复，封锁提前 25 秒。
+Detected. Lockdown advanced by 8s.	违反协议被发现，封锁提前 8 秒。
+Keep quiet. Break the guard's line of sight.	保持安静，躲开狱警视线；门和转角可以掩护你。
+Walk with your light off. Light and sprinting cost time.	关灯慢行，照明与奔跑会引起警戒。
+A figure may imitate your partner. Break eye contact.	有人在模仿队友。不要盯着异常身影，按 T 听队友回应。
+Reach your partner and hold F for two seconds.	队友出现异常！靠近他，按住 F 两秒进行救援。
+Stay within 9 m of your partner. Separation costs time.	和队友保持在 9 米以内，分开太久会损失时间。
+GUARD IN PURSUIT - BREAK LINE OF SIGHT	狱警正在追捕！关门或转弯，离开他的视线
+WAIT FOR YOUR PARTNER	等待队友靠近
+Restore both relays first	先接通配电 A 和 B
+Bring your partner beside the release panel	先让队友来到放行台旁边
+Read the roll-call board first	先读起点的点名板
+Collect the required item in the duty office first	先到值班室领取所需物品
+Complete the preparation in the workshop first	先去维修间完成准备
+Radio check busy. Validation opens in	无线电正在检查，请等待
+F  Take	F  拾取
+F  Activate	F  接通
+HOLD F  RELAY B	按住 F  合作接通配电 B
+RESTORE RELAY A FIRST	先接通配电 A
+F  Close door	F  关门
+F  Open door	F  开门
+Locked - activate relays	门已锁住，请完成供电与放行任务
+Temporarily sealed	临时封锁，请等待解除
+F  Knock on pipe	F  敲击管道引开狱警
+Wait for the sound to settle	等待声音消散
+F  Reset local power	F  修复局部供电
+Breaker online	局部供电正常
+Route note already read	这张路线纸条已经读过
+F  Read route note	F  阅读路线纸条
+F  Speak to inmate	F  与囚犯交谈
+flashlight	手电筒
+batteries	电池
+water	饮水
+HOLD F TO FREE PARTNER	按住 F  解救队友
+HOLD F TO HELP	按住 F  救援
+DETAINED   AI RESCUE	已被拘留 · 队友救援进度
+RESCUE PARTNER	前去救援队友
+01  FREE MOVEMENT	01 自由活动
+02  SECURITY SWEEP	02 肃清巡查
+03  IDENTITY ANOMALY	03 身份异常
+04  LIFE ANOMALY	04 生命异常
+05  BLOCK RECKONING	05 监区清算
+ROLL CALL / HOLD F	点名板 · 按住 F 阅读
+TRANSFER PASS	转运通行证
+MAINTENANCE TOOL	维修工具
+VALIDATE PASS	校验通行证
+ISOLATE STEAM	隔离蒸汽
+RELEASE TRANSFER GATE	出口放行台
+RELEASE SERVICE GATE	出口放行台
+SUPPLY CACHE / NOISY	补给箱 · 开启会发出声音
+INNER GATE / ACTIVE	内门已开启
+RETURN CONTROL / WORKING	回锁操作中
+RETURN LATCH / OPEN	回锁已解除
+OUTER GATE / OPEN	外门已开启
+RETURN CONTROL	回锁控制台
+DUTY OFFICE	值班室
+REPAIR WORKSHOP	维修间
+LAUNDRY / SHOWERS	洗衣与淋浴区
+SURFACE ACCESS	地面通道
+INTAKE / START	收押区 · 起点
+CELL BLOCK	牢房区
+HOLDING	拘留区
+FLASHLIGHT	手电筒
+SUPPLIES	补给点
+RELAY A	配电 A
+RELAY B	配电 B
+TEMPORARY SEAL	临时封门
+LOCAL POWER FAULT	局部断电
+F at breaker	靠近配电箱按 F 修复
+PATH TEMPORARILY BLOCKED	道路暂时受阻
+NEXT TASK	任务方向
+NEARBY	就在附近
+BEHIND	身后
+AHEAD	前方
+LEFT	左侧
+RIGHT	右侧
+COMPLETED	已完成
+HOLD F	按住 F
+ONLINE	已接通
+POWER SURGE	电压异常
+BLACKOUT	全区断电
+EXIT	出口
+PIPE	引声管道
+FAULT	供电故障
+START	起点
+TRANSFER INNER GATE	转运内门
+EXIT GATE	出口铁门
+OLD CELLS	旧牢房区
+MAINTENANCE ROUTE	维修路线纸条
+MAINTENANCE	维修区
+TRANSFER	转运区
+LAUNDRY	洗衣区
+INFIRMARY	医务室
+RECORDS	档案室
+POWER SUBSTATION	配电站
+CHECKPOINT	巡查点
+BREAKER	配电箱
+SUPPLY	补给
+CELL	牢房
+Inmate: The second relay needs both of you nearby.	囚犯：第二个配电箱得你们两人靠近才能操作。
+Inmate: Two relays open the exit. Bring your partner to the second.	囚犯：先接通两个配电箱，第二个要带着队友一起操作。最后还得去放行台。
+Inmate: The guard follows noise. The pipes can draw him off.	囚犯：狱警会循着响声过来，敲管子可以把他引开。
+Inmate: If someone reaches for their pocket, back away.	囚犯：看见有人把手伸进衣袋，就赶紧后退。

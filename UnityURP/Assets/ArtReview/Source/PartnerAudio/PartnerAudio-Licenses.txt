@@ -1,0 +1,29 @@
+Twin Labyrinth Partner Protocol audio credits
+
+All entries use CC0 1.0. The project uses the Freesound public MP3 previews
+trimmed and level-matched as single mono WAV clips. No attribution is required.
+
+Walk 01–06 and run 01, 02, 04, 05, 07: Footsteps on concrete by NachtmahrTV
+https://freesound.org/people/NachtmahrTV/sounds/553226/
+Run 03 and 08: Running Concrete by LewisEmmott5
+https://freesound.org/people/LewisEmmott5/sounds/732563/
+Run 06: concrete_17c_boots_run.wav by sturmankin
+https://freesound.org/people/sturmankin/sounds/272301/
+
+Intake OGG: Ambient Horror Track 01 by Cleyton Kauffman
+https://opengameart.org/content/ambient-horror-track-01
+Explore OGG: Horror Atmosphere by Juhani Junkala
+https://opengameart.org/node/79273
+Blackout OGG: Dark Cavern Ambient 002 by Paul Wortmann
+https://opengameart.org/content/dark-cavern-ambient
+Anomaly OGG: Lost in a bad place
+https://opengameart.org/content/lost-in-a-bad-place-horror-ambience-loop
+
+Person WAV: excerpt of Mystery Sting by railkill
+https://opengameart.org/content/mystery-sting
+Sting WAV: excerpt of Abyss from String and piano horror stings by congusbongus
+https://opengameart.org/content/string-and-piano-horror-stings
+
+Exhausted WAV: filtered excerpt of Heavy_Breathing.wav by AbuNijmeh
+https://freesound.org/people/AbuNijmeh/sounds/319103/
+The double heartbeat is generated locally by generate-haunt-audio.cjs.
